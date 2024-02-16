@@ -1,0 +1,181 @@
+html,
+body {
+    background-image: url("../images/background1.jpg");
+    background-size: auto;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    background-color: #F9E8C9;
+    color: black;
+    margin-bottom: 50px;
+
+}
+
+.navbar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: auto;
+
+}
+
+.navbar-section .nav-page {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+li:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+.hero-section {
+    width: 70%;
+    height: 35vh;
+    padding: 50px;
+    margin-top: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #F9E8C9;
+    color: #070F2B;
+}
+
+.hero-content {
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.content-heading {
+    font-size: 60px;
+    font-weight: 200;
+
+}
+
+.content-para {
+
+    overflow: auto;
+}
+
+.orange {
+    color: #FF8911;
+}
+
+.green {
+    color: #9BCF53;
+}
+
+.contact-section {
+    width: 70%;
+    height: 30vh;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: inline;
+
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+}
+
+.grid-two-column {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+table,
+thead,
+tbody,
+th,
+tr,
+td {
+    border: 2px solid;
+}
+
+thead {
+    font-weight: bold;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.popular-books {
+    width: 100%;
+    margin-left: 60%;
+}
+
+.details-page {
+    width: 40%;
+    height: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    background: white;
+    color: black;
+}
+
+h5 {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.text-fields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.input {
+    width: 90%;
+}
+
+.radio-field {
+    padding: 20px;
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #070F2B;
+}
+
+.submit-button {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: steelblue;
+}
+
+button:hover {
+    background-color: #F9E8C9;
+    text-transform: uppercase;
+    cursor: pointer;
+}
