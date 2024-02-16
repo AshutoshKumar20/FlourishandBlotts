@@ -25,14 +25,11 @@ body {
     align-items: center;
     padding: 10px;
     margin-bottom: auto;
-
 }
 
-.navbar-section .nav-page {
+.nav-page {
     display: flex;
     flex-direction: row;
-    justify-items: flex-start;
-    align-items: center;
     gap: 30px;
     list-style-type: none;
 }
