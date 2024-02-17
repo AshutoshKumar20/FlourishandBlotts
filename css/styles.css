@@ -4,6 +4,7 @@ body {
     background-size: auto;
     color: white;
     background-repeat: no-repeat;
+
 }
 
 * {
@@ -14,31 +15,29 @@ body {
 
 .container-fluid {
     background-color: #F9E8C9;
-    color: black;
     margin-bottom: 50px;
 
 }
 
-.navbar-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: auto;
-}
-
-.nav-page {
+.navbar-nav {
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
 }
 
 li {
     list-style-type: none;
 }
 
-li:hover {
+a {
+    color: black
+}
+
+a:hover {
     color: brown;
     cursor: pointer;
 }
@@ -81,13 +80,12 @@ li:hover {
 
 .contact-section {
     width: 70%;
-    height: 30vh;
+    height: 35vh;
     margin: 0 auto;
-    padding: 20px;
-    margin-top: 40px;
+    padding: 40px;
+    margin-top: 80px;
     border-radius: 10px;
     display: inline;
-
 }
 
 .grid {
@@ -118,7 +116,7 @@ td {
 }
 
 .popular-books {
-    width: 100%;
+    width: 90%;
     margin-left: 60%;
 }
 
@@ -131,9 +129,14 @@ td {
     color: black;
 }
 
+.details-section {
+    height: 30%;
+}
+
 h5 {
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
+    background-color: #E1F0DA;
 }
 
 .text-fields {
@@ -158,6 +161,7 @@ h5 {
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
+    background-color: #E1F0DA;
 }
 
 button {
